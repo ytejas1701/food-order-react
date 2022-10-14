@@ -1,0 +1,52 @@
+.appbar {
+    margin-left: 0rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height: fit-content;
+    background-color: #af2630;
+}
+
+.logo {
+    margin: 0rem 2rem;
+    font-size: 2rem;
+    padding: 0.5rem 0rem;
+    color: white;
+    font-weight: bold;
+    font-family: 'Tahoma'
+}
+
+.cart {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid white;
+    margin: 0rem 1rem;
+}
+
+.cartIcon {
+    display: flex;
+    flex-direction: row;
+    padding: 0rem 1rem;
+}
+
+.cartIcon:hover {
+    cursor: pointer;
+}
+
+.quantity {
+    font-size: 0.75rem;
+    height:1rem;
+    width:1rem;
+    text-align: center;
+    position: absolute;
+    background-color: black;
+    color: white;
+    border-radius: 1.5rem;
+    margin-left: 1.2rem;
+    margin-bottom: 2rem;
+}

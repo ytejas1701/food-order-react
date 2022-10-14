@@ -1,0 +1,9 @@
+.menu {
+    width: 720px;
+    background-color: wheat;
+    border-radius: 12px;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2rem;
+}

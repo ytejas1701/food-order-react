@@ -1,0 +1,49 @@
+.cart {
+    margin: 5rem auto;
+    width:360px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 2rem;
+    font-family: Tahoma;
+    text-align: center;
+}
+
+.totalAmount {
+    font-weight: bold;
+    text-align: right;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.placeOrder {
+    background-color: #af2630;
+    border: none;
+    padding: 0.6rem 1rem;
+    font-family: Tahoma;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    margin-top: 1rem;
+}
+
+.placeOrder:hover {
+    cursor: pointer;
+}
+
+.cancel {
+    font-size: 0.8rem;
+    background-color: white;
+    border: none;
+    margin-top: 1rem;
+}
+
+.cancel:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+

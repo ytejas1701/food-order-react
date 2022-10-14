@@ -1,0 +1,50 @@
+.menuItem {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    margin: 0rem 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0rem;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.itemDescription {
+    display: flex;
+    flex-direction: column;
+}
+
+.itemTitle {
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: Tahoma;
+    user-select: none;
+}
+
+.itemPrice {
+    font-size: 1.2rem;
+    user-select: none;
+}
+svg {
+    padding: 0rem;
+}
+.itemQuantity {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 0.4rem;
+    padding-left:0.4rem;
+    user-select: none;
+}
+.quantity{
+    font-size: 1.5rem;
+    padding-left: 0.6rem;
+    padding-right:1rem;
+    padding-bottom: 0.4rem;
+    font-weight: bold;
+    color: #af2630;
+}
+svg:hover{
+    cursor: pointer;
+}
